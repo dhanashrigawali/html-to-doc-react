@@ -1,18 +1,32 @@
-# html-to-doc-react
+# `html-to-doc-react`
 
-A custom React hook for exporting HTML content to Word document files.
+`html-to-doc-react` is a simple React hook that allows you to export HTML content from your React app to a downloadable Word document (.doc). The hook extracts content from either the provided HTML string or from an element with a specified `id`, and generates a Word document with inline styles.
 
-## Installation
+## Features
 
-Install the package via npm:
+- Export HTML content or content from a specific element to a Word document.
+- Inline styling support, including custom styles applied to your document.
+- Simple to use and easy to integrate into React applications.
+
+
+### Install
+
+You can install the package via npm or yarn:
 
 ```bash
+# with npm
 npm install html-to-doc-react
 
-Usage- 
+# with yarn
+yarn add html-to-doc-react
+```
 
-Here’s how to use the hook in your React component:
+### Usage
 
+- Import the package in your app:
+
+
+```js
 import React from 'react';
 import useExportToDoc from 'use-export-to-doc';
 
@@ -27,4 +41,10 @@ const MyComponent = () => {
 };
 
 export default MyComponent;
+```
 
+### Props :
+
+- htmlContent (optional): The HTML content you want to export as a Word document.
+- elementId (optional): The id of an HTML element from which content will be extracted to export.
+- fileName: The name of the Word document you want to generate (including .doc extension).
