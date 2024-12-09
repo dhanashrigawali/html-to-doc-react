@@ -9,11 +9,11 @@
     "build": "rollup -c --environment NODE_ENV:production"
   },
   "keywords": [
+    "html-to-doc-react",
     "react",
     "word",
     "document",
-    "Generate",
-    "html-to-doc"
+    "doc"
   ],
   "author": "Dhanashri Gawali",
   "license": "MIT",
