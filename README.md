@@ -28,7 +28,7 @@ yarn add html-to-doc-react
 
 ```js
 import React from 'react';
-import useExportToDoc from 'use-export-to-doc';
+import useExportToDoc from 'html-to-doc-react';
 
 const MyComponent = () => {
     const exportToDoc = useExportToDoc('<p>Hello, World!</p>', null, 'example.doc');

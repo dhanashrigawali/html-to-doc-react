@@ -1,3 +1,3 @@
 import useExportToDoc from "./useExportToDoc";
 
-export {useExportToDoc}
+export default useExportToDoc
