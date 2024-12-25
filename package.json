@@ -1,6 +1,6 @@
 {
   "name": "html-to-doc-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Generate document from html in reactjs project",
   "main": "dist/index.js",
   "type": "module",
