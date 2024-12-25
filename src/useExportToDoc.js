@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 
-const useExportToDoc = (htmlContent, elementId = 'doccontent', fileName) => {
+const useExportToDoc = (htmlContent, elementId = 'doccontent', fileName = 'Export.doc') => {
     const exportToDoc = useCallback(() => {
         let content
         if (htmlContent) {
